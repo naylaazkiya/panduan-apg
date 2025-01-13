@@ -1,0 +1,66 @@
+site_name: Panduan Aplikasi Manejemen Pegawai
+theme:
+  name: material
+  palette:
+   
+    # Palette toggle for light mode
+    - scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+  # mengatur font
+  font:
+    text: Open Sans
+    code: JetBrains Mono
+
+  #icon
+  logo: images/book.png
+  favicon: images/book.png
+  
+  icon: 
+    admonition:
+      note: fontawesome/solid/note-stcky
+      abstrack: fontawesome/solid/
+      info: fontawesome/solid/circle-info
+      tip: fontawesome/solid/bulhorn
+      success: fontawesome/solid/check
+      question: fontawesome/solid/cercle-question
+      warning: fontawesome/solid/triangle-exclamation
+      failure: fontawesome/solid/bomb
+      danger: fontawesome/solid/skull
+      bug: fontawesome/solid/robot
+      example: fontawesome/solid/flask
+      quote: fontawesome/solid/quote-left
+
+features: 
+  # - navigation.footer
+  # - navigation.tabs
+
+markdown-ekstension:
+    - admonition
+    - pymdownx.details
+    - pymdownx.superfences
+    # fitur
+    - attr-list
+    # keyboard
+    - pymdownx.keys
+
+plugins:  
+  - search
+
+#footer
+copyright: Made With by anggunnayla | &copy;2025
+
+extra:
+  generator: false
