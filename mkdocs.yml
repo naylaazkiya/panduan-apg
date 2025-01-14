@@ -1,4 +1,5 @@
 site_name: Panduan Aplikasi Manejemen Pegawai
+# site_url : https://mydomain.org/mysite
 theme:
   name: material
   palette:
@@ -25,17 +26,18 @@ theme:
     code: JetBrains Mono
 
   #icon
+    # logo: images/book.png
   logo: images/book.png
   favicon: images/book.png
   
-  icon: 
+  icon:
     admonition:
-      note: fontawesome/solid/note-stcky
-      abstrack: fontawesome/solid/
+      note: fontawesome/solid/note-sticky
+      abstract: fontawesome/solid/book
       info: fontawesome/solid/circle-info
-      tip: fontawesome/solid/bulhorn
+      tip: fontawesome/solid/bullhorn
       success: fontawesome/solid/check
-      question: fontawesome/solid/cercle-question
+      question: fontawesome/solid/circle-question
       warning: fontawesome/solid/triangle-exclamation
       failure: fontawesome/solid/bomb
       danger: fontawesome/solid/skull
@@ -43,24 +45,30 @@ theme:
       example: fontawesome/solid/flask
       quote: fontawesome/solid/quote-left
 
-features: 
-  # - navigation.footer
-  # - navigation.tabs
-
-markdown-ekstension:
-    - admonition
-    - pymdownx.details
-    - pymdownx.superfences
-    # fitur
-    - attr-list
-    # keyboard
-    - pymdownx.keys
-
-plugins:  
+  features: 
+    # - navigation.footer
+    # - navigation.tabs
+  
+  plugins:  
   - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  # Fitur
+  - attr_list
+  # Keyboard
+  - pymdownx.keys
+
+
+
 
 #footer
 copyright: Made With by anggunnayla | &copy;2025
 
 extra:
   generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/naylaazkiya

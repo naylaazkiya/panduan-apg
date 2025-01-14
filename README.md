@@ -25,5 +25,5 @@ Nama Buah
 |NO|NAMA|KELAS|
 |-|-|-|
 |1|Maim|11|
-|1|Nayla|11|
-|1|Annkhwta|11|****
+|2|Nayla|11|
+|3|Annkhwta|11|****
